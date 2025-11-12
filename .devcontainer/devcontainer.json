@@ -1,0 +1,18 @@
+{
+    "name": "Java Development",
+    "image": "mcr.microsoft.com/devcontainers/java:21",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack",
+                "github.copilot-chat",
+                "github.copilot"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers-extra/features/maven-sdkman:2": "latest"
+    },
+    "forwardPorts": [8080, 5005],
+    "remoteUser": "vscode"
+}
